@@ -1,0 +1,10 @@
+{
+  "allowedMcpServers": [
+    {
+      "serverCommand": [
+        "/opt/homebrew/bin/node",
+        "/Users/chris/labs/local-mcp-allowlist/servers/allowed-server.mjs"
+      ]
+    }
+  ]
+}

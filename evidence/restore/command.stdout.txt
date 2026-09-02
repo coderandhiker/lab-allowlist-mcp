@@ -1,0 +1,2 @@
+Removed the lab policy; there was no pre-existing policy.
+Restart Copilot CLI processes to reload managed settings.

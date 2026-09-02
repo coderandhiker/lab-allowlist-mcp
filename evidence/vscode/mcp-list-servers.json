@@ -1,0 +1,25 @@
+{
+  "capturedAt": "2026-09-02T07:34:37.309-07:00",
+  "source": "VS Code MCP: List Servers",
+  "vscodeVersion": "1.137.0-insider",
+  "image": "mcp-list-servers.png",
+  "imageSha256": "04c99d20c64e13a0a08310347f5d4b8449b97f50ba6288fba9e909a68b83ace1",
+  "observed": {
+    "allowedServer": {
+      "name": "mcp-lab-allowed-vscode",
+      "state": "Stopped",
+      "source": "local-mcp-allowlist/.vscode/mcp.json"
+    },
+    "blockedServer": {
+      "name": "mcp-lab-blocked-vscode",
+      "state": "Error",
+      "visibleErrorPrefix": "This Model Context Protocol server is not in the list of servers allow"
+    },
+    "additionalBlockedServer": {
+      "name": "workiq",
+      "state": "Error",
+      "visibleErrorPrefix": "This Model Context Protocol server is not in the list of servers allow",
+      "source": "workiq (Agent Plugin)"
+    }
+  }
+}

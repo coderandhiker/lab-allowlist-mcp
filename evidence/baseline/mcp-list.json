@@ -1,0 +1,34 @@
+{
+  "mcpServers": {
+    "mcp-lab-allowed": {
+      "tools": [
+        "*"
+      ],
+      "type": "stdio",
+      "command": "/opt/homebrew/bin/node",
+      "args": [
+        "/Users/chris/labs/local-mcp-allowlist/servers/allowed-server.mjs"
+      ],
+      "env": {
+        "MCP_LAB_AUDIT_FILE": "/Users/chris/labs/local-mcp-allowlist/.state/allowed-calls.jsonl"
+      },
+      "source": "user",
+      "enabled": true
+    },
+    "mcp-lab-blocked": {
+      "tools": [
+        "*"
+      ],
+      "type": "stdio",
+      "command": "/opt/homebrew/bin/node",
+      "args": [
+        "/Users/chris/labs/local-mcp-allowlist/servers/blocked-server.mjs"
+      ],
+      "env": {
+        "MCP_LAB_AUDIT_FILE": "/Users/chris/labs/local-mcp-allowlist/.state/blocked-calls.jsonl"
+      },
+      "source": "user",
+      "enabled": true
+    }
+  }
+}

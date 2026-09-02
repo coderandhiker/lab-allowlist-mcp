@@ -1,0 +1,6 @@
+PASS policy matcher: only the allowed CLI and VS Code servers match serverCommand.
+Installed machine-local Copilot policy:
+  owner=root group=wheel mode=644 path=/Library/Application Support/GitHubCopilot/managed-settings.json
+
+Restart every Copilot CLI process before running:
+  ./scripts/run-tests.sh enforced

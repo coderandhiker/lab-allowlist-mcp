@@ -1,0 +1,24 @@
+{
+  "servers": {
+    "mcp-lab-allowed-vscode": {
+      "type": "stdio",
+      "command": "/opt/homebrew/bin/node",
+      "args": [
+        "/Users/chris/labs/local-mcp-allowlist/servers/allowed-server.mjs"
+      ],
+      "env": {
+        "MCP_LAB_AUDIT_FILE": "/Users/chris/labs/local-mcp-allowlist/.state/vscode-allowed-calls.jsonl"
+      }
+    },
+    "mcp-lab-blocked-vscode": {
+      "type": "stdio",
+      "command": "/opt/homebrew/bin/node",
+      "args": [
+        "/Users/chris/labs/local-mcp-allowlist/servers/blocked-server.mjs"
+      ],
+      "env": {
+        "MCP_LAB_AUDIT_FILE": "/Users/chris/labs/local-mcp-allowlist/.state/vscode-blocked-calls.jsonl"
+      }
+    }
+  }
+}

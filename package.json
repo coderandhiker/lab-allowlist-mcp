@@ -1,0 +1,20 @@
+{
+  "name": "local-mcp-allowlist-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reproducible macOS lab for Copilot CLI local MCP server allowlists.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "./scripts/capture-evidence.sh baseline",
+    "test:baseline": "./scripts/capture-evidence.sh baseline",
+    "policy:install": "./scripts/capture-install.sh",
+    "test:enforced": "./scripts/capture-evidence.sh enforced",
+    "test:live": "./scripts/capture-evidence.sh live",
+    "test:vscode:prepare": "./scripts/prepare-vscode-test.sh",
+    "test:vscode:check": "./scripts/capture-vscode-test.sh",
+    "policy:restore": "./scripts/capture-restore.sh",
+    "audit": "node ./scripts/audit-evidence.mjs",
+    "report": "node ./scripts/render-report.mjs"
+  }
+}

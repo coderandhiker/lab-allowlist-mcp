@@ -1,0 +1,23 @@
+{
+  "capturedAt": "2026-09-02T07:29:28.407-07:00",
+  "source": "VS Code Developer: Policy Diagnostics",
+  "vscodeVersion": "1.137.0-insider",
+  "image": "policy-diagnostics.png",
+  "imageSha256": "1f6a3890d7a4bb3c3dc0af1696f55394e0d73647dba335721f7952526b212ab4",
+  "observed": {
+    "activeSource": "File (managed-settings.json)",
+    "suppliedKeys": 1,
+    "effectivePolicyKeys": 1,
+    "key": "allowedMcpServers",
+    "effectiveValue": [
+      {
+        "serverCommand": [
+          "/opt/homebrew/bin/node",
+          "/Users/chris/labs/local-mcp-allowlist/servers/allowed-server.mjs"
+        ]
+      }
+    ],
+    "winningSource": "File",
+    "normalizationAndParseIssues": 0
+  }
+}

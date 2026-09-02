@@ -1,0 +1,9 @@
+captured_at=2026-09-02T14:18:44Z
+ProductName:		macOS
+ProductVersion:		26.6.2
+BuildVersion:		25G83
+Architecture: arm64
+GitHub Copilot CLI 1.0.82.
+Run 'copilot update' to check for updates.
+Node: v25.8.2
+Managed policy: owner=root group=wheel mode=644 path=/Library/Application Support/GitHubCopilot/managed-settings.json

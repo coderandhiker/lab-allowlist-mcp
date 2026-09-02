@@ -1,3 +1,6 @@
+_Note: AI tooling changes fast. This was validated on Sept 2, 2026 - if significant time has elapsed, check the docs and don't treat this as authoritative. The lab exists to validate the approach works, I recommend running it if you have doubts about the configuration due to time elapsing._
+
+
 # Control MCP server access in GitHub Copilot
 
 GitHub Copilot managed settings can restrict which Model Context Protocol (MCP) servers developers may run in supported Copilot clients, including GitHub Copilot CLI and VS Code.
